@@ -1,4 +1,5 @@
 # Crie um programa com 5 variaveis constantes
+print("Programa de vendas de produtos")
 iPhone = float(2.980)
 samsung = float(2.540)
 tablet = float(1.950)
