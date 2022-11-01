@@ -1,7 +1,13 @@
-print("algoritmo para multiplicação")
+#Crie um programa com uma função para multiplicar dois números
+# e o algoritmo mostrar o resultado
 
-na = float(input("digite um numeros: "))
-nb =  float(input("digite outro numero: "))
+print("Algoritmo para Multiplicação")
+
+na = float(input("digite os números a serem multiplicados: "))
+nb = float(input(": "))
+
 def multiplica(n1,n2):
-    resultado=n1,n2):
-    return print("o resultao da multiplicação")
+    resultado=n1*n2
+    return print("O resultado da multiplicação é ",resultado)
+
+multiplica(na,nb)
