@@ -3,18 +3,17 @@
 # nota do 1º, 2º, 3º e 4º bimestre. Após deverá mostrar na tela se o aluno foi aprovado,
 # se está em recuperação ou foi reprovado sem chance de recuperação
 
-primeiroBimestre = float(input("Digite a nota do primeiro bimestre: "))
+b1= float(input("Digite a nota do primeiro bimestre: "))
+b2 = float(input("Digite a nota do segundo no bimestre: "))
+b3 = (input("Digite a nota do terceiro no bimestre: "))
+b4 = (input("Digite a nota do quarto no bimestre: "))
 
-segundoBimestre = float(input("Digite a nota do segundo no bimestre: "))
-
-terceiroBimestre = (input("Digite a nota do terceiro no bimestre: "))
-
-quartoBimestre = (input("Digite a nota do quarto no bimestre: "))
-
-notaFinal = float(primeiroBimestre , segundoBimestre , terceiroBimestre, quartoBimestre)
-if (notaFinal >= 40 and notaFinal < 60):
+notaFinal = b1+b2+b3+b4
+if (notaFinal >= 40 and notaFinal <= 100):
+    print("Aluno de aprovado")
+elif (notaFinal > 40 and notaFinal < 60):
     print("Aluno de recuperação")
-elif notaFinal >= 60:
-    print("Aluno aprovado")
-else:
+elif (notaFinal < 40 and notaFinal >= 0):
     print("Aluno reprovado")
+else:
+    print ("Confira os valores digitados !!!")
