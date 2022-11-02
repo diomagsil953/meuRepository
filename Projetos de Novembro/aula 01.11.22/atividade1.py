@@ -5,8 +5,18 @@
 # o sindicato, mostre todos os descontos,
 # mostre o salário bruto e o líquido.
 
-print("Programa perguntar Salarios")
+print ("Programa de seu perguntar Salario")
 
-dph = float(input("Digite quanto você ganha por hora: "))
-nht = float(input("Digite quantas horas você trabalha por mes: "))
+salariototal = float(input("Digite o número de horas trabalhadas no mês: ")) * float(input("Digite o valor da hora trabalhada: "))
+print("Salario total: ",salariototal)
 
+IR = (salariototal*0.11)
+INSS = (salariototal*0.08)
+sindicato = (salariototal*0.05)
+
+print("desconto IR: -",IR)
+print("desconto INSS: -",INSS)
+print("desconto sindicato: -",sindicato)
+salarioliquido=(salariototal-IR-INSS-sindicato)
+
+print("Salario liquido: ",salarioliquido)

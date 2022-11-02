@@ -3,8 +3,8 @@
 
 print("Algoritmo para Multiplicação")
 
-na = float(input("digite os números a serem multiplicados: "))
-nb = float(input(": "))
+na = float(input("digite o primeiro números a ser multiplicados: "))
+nb = float(input("digite o segundo número a ser miltiplicado: "))
 
 def multiplica(n1,n2):
     resultado=n1*n2
