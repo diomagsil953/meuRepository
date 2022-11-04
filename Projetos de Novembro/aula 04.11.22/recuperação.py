@@ -9,7 +9,6 @@ print("Programa de Pesquisa de Eleições")
 
 restart="sim"
 while restart == "sim":
-    print("ALGORITMO ELEITORES: ")
     nomeCidade = input("Digite o nome da cidade: ")
     n1 = int(input("Digite o número de votos válidos: "))
     n2 = int(input("Digite o número de votos nulos: "))
